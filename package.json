@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "env TS_NODE_COMPILER_OPTIONS='{\"module\": \"commonjs\" }' mocha -r ts-node/register 'tests/**/*.test.ts'",
-    "predev": "tsc",
+    "predev": "yarn build",
+    "build": "tsc",
     "dev": "node dist/index.js"
   },
   "author": "",
