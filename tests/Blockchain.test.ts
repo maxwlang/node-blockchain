@@ -1,5 +1,4 @@
 import { expect } from 'chai'
-// import { Block } from '../src/Block'
 import { Blockchain } from '../src/Blockchain'
 
 describe('Blockchain', () => {
